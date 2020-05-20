@@ -1,0 +1,56 @@
+<html>
+      <head><title>My Personal Website</title>
+      </head>
+<center><script>
+function startTime() {
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =
+  h + ":" + m + ":" + s;
+  var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
+</head>
+
+<body onload="startTime()">
+
+<div id="txt"></div></center>
+<br>
+<center>
+<body>
+
+      <body bgcolor="darksalmon">
+      <h1><p style="color:purple"><font face = "Brush Script MT" font size = "72">Hidayah's Universe</font></h1>
+      <hr>
+      <font size="6"><a href="home.html">Home</a> | <a href="about me.html">About Me</a>| <a href="family.html">My Family</a> | <a href="education.html">Education</a> | <a href="photovideo.html">Photo & Video Land</a> | <a href="experience.html">Experience</a> | <a href="my things.html">My Things</a> | <a href="others.html">Others</a> | <a href="contact.html">Contact</a></font>
+      <hr>
+      <p style="color:cyan"><font size="6"><marquee><h4>🌞The sun is shining on the sky so brightly, your day is also going to shine the same way. Have a good day.🌞</font></4></marquee> 
+<br>
+<br>
+<p><font size = "Verdana" size = "5">If you want to keep in touch with me, don't be shy to say hi or you can contact me through email - ahidayahizati@gmail.com
+<br>
+You also can contact me through my social media below(:<br>
+See u again!!</font></p>
+<br>
+<br>
+<img src="images/tq.gif">
+<br>
+<br>
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-38a85d6c-e098-49e3-9a38-05605d2a68dd"></div>
+<br>
+<br>
+      <hr>
+      Copyright © copy 2020 All Right Reserved: Hidayah's Universe
+      <hr>
+</body>
+</center>
+</html>
